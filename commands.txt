@@ -8,6 +8,9 @@ ls -- list of contents
 rm[filename] -- deleting or removing a file
 touch [filename] -- creates a new file
 	> creating a new file in the current directory
+
+clear -- to clear the terminal
+
 ----------
 
 Repository -- folder/container that stores files or folders related to a project
@@ -16,3 +19,18 @@ It keeps track of the changes made over time.
 	>remote repository -- stored on a server or cloud server [Github]
 
 git init -- initialize a folder
+
+git config user.name <"username">
+git config user.email <"email address">
+
+git add .
+	> adds all modified files in your current directory to the staging area
+
+git add "filename" 
+	> adds a specific file to the staging area 
+
+git commit -m "message"
+	> saves the changes that we've made to the files in the staging area to the repository. The message describes what changes were made in this commit.
+
+git status
+	> displays the current status of your file/folder

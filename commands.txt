@@ -1,0 +1,18 @@
+pwd -- print working directory
+	> displays the current location
+cd[loc] -- change directory
+	> allows you to move throughout your computer
+mkdir [folder name] -- make directory
+	> It creates a new folder in current directory
+ls -- list of contents
+rm[filename] -- deleting or removing a file
+touch [filename] -- creates a new file
+	> creating a new file in the current directory
+----------
+
+Repository -- folder/container that stores files or folders related to a project
+It keeps track of the changes made over time.
+	>local repository -- stored on your computer
+	>remote repository -- stored on a server or cloud server [Github]
+
+git init -- initialize a folder
